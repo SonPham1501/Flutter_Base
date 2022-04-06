@@ -1,0 +1,24 @@
+ this.wsUser.emit('open', {
+                        lisst ID user,
+                        start: [
+                            {
+                                sendBy: id user,
+                                type : 'link',
+                                link: {
+                                    text: des,
+                                    href: content,
+                                    image: (item.media)? item.media.pop() : ''
+                                }
+                            }
+                        ],
+                        open: true
+                    })
+
+                        this.$root.$emit('sendMessage', {
+                                    room : this.item,
+                                    message: {
+                                        type : 'text',
+                                        text: this.message
+                                    }
+                                });
+
